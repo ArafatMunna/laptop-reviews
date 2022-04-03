@@ -7,3 +7,4 @@ Live Site Link: [https://laptop-reviews.netlify.app/](https://laptop-reviews.net
 * Customers All Reviews in the Reviews page.
 * There are two charts in Dashboard page.
 * Two questions answer in the blogs page.
+* Not Found Page added. If someone give ivalid url then show Not found.

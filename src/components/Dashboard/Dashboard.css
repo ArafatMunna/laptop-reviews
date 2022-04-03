@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
 }
-@media screen and (max-width: 767arpx) {
+@media screen and (max-width: 767px) {
     .chart-container {
         grid-template-columns: repeat(1, 1fr);
     }

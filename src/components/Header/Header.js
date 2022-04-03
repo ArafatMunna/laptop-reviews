@@ -10,29 +10,44 @@ const Header = () => {
                 </Link>
                 <div>
                     <NavLink
-                        className="text-white text-decoration-none me-4"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-warning text-decoration-none me-4"
+                                : "text-white text-decoration-none me-4"
+                        }
                         to="/"
                     >
                         Home
                     </NavLink>
                     <NavLink
-                        className="text-white text-decoration-none me-4"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-warning text-decoration-none me-4"
+                                : "text-white text-decoration-none me-4"
+                        }
                         to="/reviews"
                     >
                         Reviews
                     </NavLink>
                     <NavLink
-                        className="text-white text-decoration-none me-4"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-warning text-decoration-none me-4"
+                                : "text-white text-decoration-none me-4"
+                        }
                         to="/dashboard"
                     >
                         Dashboard
                     </NavLink>
-                    <NavLink
-                        className="text-white text-decoration-none"
-                        to="/blogs"
+                    {/* <NavLink
+                        className={({isActive}) =>
+                            isActive
+                                ? "text-warning text-decoration-none"
+                                : "text-white text-decoration-none"
+                        }
                     >
                         Blogs
-                    </NavLink>
+                    </NavLink> */}
                 </div>
             </div>
         </div>

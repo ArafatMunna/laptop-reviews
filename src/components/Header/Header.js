@@ -28,7 +28,7 @@ const Header = () => {
                         Dashboard
                     </NavLink>
                     <NavLink
-                        className="text-white text-decoration-none me-4"
+                        className="text-white text-decoration-none"
                         to="/blogs"
                     >
                         Blogs

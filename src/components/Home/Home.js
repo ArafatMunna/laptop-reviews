@@ -17,7 +17,7 @@ const Home = () => {
 
             <h2 className="text-center">Customer Reviews (3)</h2>
             <div className="review-container my-4">
-                {reviews.map((review) => (
+                {reviews.slice(0, 3).map((review) => (
                     <Review key={review.id} review={review} />
                 ))}
             </div>

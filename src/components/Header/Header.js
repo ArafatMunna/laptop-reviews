@@ -39,15 +39,16 @@ const Header = () => {
                     >
                         Dashboard
                     </NavLink>
-                    {/* <NavLink
-                        className={({isActive}) =>
+                    <NavLink
+                        className={({ isActive }) =>
                             isActive
                                 ? "text-warning text-decoration-none"
                                 : "text-white text-decoration-none"
                         }
+                        to="/blogs"
                     >
                         Blogs
-                    </NavLink> */}
+                    </NavLink>
                 </div>
             </div>
         </div>

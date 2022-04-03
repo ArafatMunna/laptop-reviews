@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Adriana Gonzalez",
+        "review": "This has been a very good laptop. Good battery life, and great features. I would buy one again This is a laptop with many features that most computers do not have.",
+        "rating": "5"
+    },
+    {
+        "id": "2",
+        "name": "Dora Prince",
+        "review": " Really good quality laptop for the price very good . Internet connection is wonderful , I use this laptop mainly for school so it has everything I need ",
+        "rating": "4.6"
+    },
+    {
+        "id": "3",
+        "name": "Wanda Hayden",
+        "review": "I have had MacBook forever. They are very sturdy and you can trust them. For college students they are a plus because come in many different formats. Very good job MacBook. Thanks.",
+        "rating": "5"
+    },
+    {
+        "id": "4",
+        "name": "Sutton Doyle",
+        "review": "Was not expecting much from this when purchased, but I gotta say it works REALLY well. This is PERFECT for a student or even your elderly parents. Simple and easy to use and lighter and more compact.",
+        "rating": "4.5"
+    },
+    {
+        "id": "5",
+        "name": "Margaret Dixon",
+        "review": "Bought many computers over the years, but MacBook stands out for quality and longevity. All other computers I bought had problems, but MacBook is a solid bet.",
+        "rating": "4.7"
+    },
+    {
+        "id": "6",
+        "name": "Combs Morton",
+        "review": "It is smaller than I usually get, but the screen is so clear that I have no problem seeing the screen. It is really a great computer at a great price. I'm really glad that I decided to take a chance on it. I absolutely love it.",
+        "rating": "4.5"
+    }
+]

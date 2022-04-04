@@ -6,54 +6,6 @@ import CustomLink from "../CustomLink/CustomLink";
 const Header = () => {
     return (
         <div className="bg-primary p-2 fs-5">
-            {/* <div className="container d-flex justify-content-between">
-                <Link className="text-white text-decoration-none" to="/">
-                    <h3>Laptop Reviews</h3>
-                </Link>
-                <div>
-                    <NavLink
-                        className={({ isActive }) =>
-                            isActive
-                                ? "text-warning text-decoration-none me-4"
-                                : "text-white text-decoration-none me-4"
-                        }
-                        to="/"
-                    >
-                        Home
-                    </NavLink>
-                    <NavLink
-                        className={({ isActive }) =>
-                            isActive
-                                ? "text-warning text-decoration-none me-4"
-                                : "text-white text-decoration-none me-4"
-                        }
-                        to="/reviews"
-                    >
-                        Reviews
-                    </NavLink>
-                    <NavLink
-                        className={({ isActive }) =>
-                            isActive
-                                ? "text-warning text-decoration-none me-4"
-                                : "text-white text-decoration-none me-4"
-                        }
-                        to="/dashboard"
-                    >
-                        Dashboard
-                    </NavLink>
-                    <NavLink
-                        className={({ isActive }) =>
-                            isActive
-                                ? "text-warning text-decoration-none"
-                                : "text-white text-decoration-none"
-                        }
-                        to="/blogs"
-                    >
-                        Blogs
-                    </NavLink>
-                </div>
-            </div> */}
-
             <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand

@@ -9,7 +9,12 @@ const NotFound = () => {
             <div>
                 <img className="img-fluid" src={notFoundImg} alt="" />
             </div>
-            <button onClick={()=> navigate("/")} className="btn btn-primary">Back to Home</button>
+            <button
+                onClick={() => navigate("/")}
+                className="btn btn-primary mt-3"
+            >
+                Back to Home
+            </button>
         </div>
     );
 };

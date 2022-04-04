@@ -6,7 +6,7 @@ import "./Dashboard.css";
 const Dashboard = () => {
     return (
         <div className="container">
-            <div className="chart-container mt-5">
+            <div className="chart-container my-5">
                 <div>
                     <h2 className="text-center mb-5 text-primary">
                         Month Wise Sell

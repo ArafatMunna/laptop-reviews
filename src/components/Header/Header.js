@@ -5,7 +5,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
     return (
-        <div className="bg-primary p-2 fs-5">
+        <div className="bg-primary p-2 fs-5 sticky-top">
             <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand
